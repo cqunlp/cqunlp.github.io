@@ -5,58 +5,42 @@
             "Link":"/"
         },
         {
-            "LinkName":"Google Developers Groups",
+            "LinkName":"重庆大学",
             "Link":"https://developers.google.com/programs/community/gdg/"
         },
         {
-            "LinkName":"WomenTechamkers",
+            "LinkName":"重庆大学计算机学院",
             "Link":"https://www.womentechmakers.com/"
-        },
-        {
-            "LinkName":"Become a Member",
-            "Link":"https://www.meetup.com/GDG-Jalandhar/"
         }
     ],
     "ChapterResourcesSession":[
         {
-            "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "LinkName" : "合作联系",
+            "Link" : "mailto:zhongjiang@cqu.edu.cn"
         },
         {
-            "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "LinkName" : "论文代码开源",
+            "Link" : "mailto:lvyufeng@cqu.edu.cn"
         },
         {
-            "LinkName" : "Media Kit",
-            "Link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
+            "LinkName" : "开源数据集",
+            "Link" : "/"
         }
     ],
     "DevConsole":[
         {
-            "LinkName" : "Google API Console",
-            "Link" : "https://console.developers.google.com/"
+            "LinkName" : "专业知识标注系统",
+            "Link" : "http://39.100.48.36/"
         },
         {
-            "LinkName" : "GCP Console",
-            "Link" : "https://console.cloud.google.com/"
-        },
-        {
-            "LinkName" : "Google Play Console",
-            "Link" : "https://console.cloud.google.com/"
-        },
-        {
-            "LinkName" : "Firebase Console",
-            "Link" : "https://console.firebase.google.com/"
+            "LinkName" : "专业知识图谱编辑平台",
+            "Link" : "http://39.100.48.36:3010/"
         }
     ],
     "FooterEndSession":[
         {
-            "LinkName" : "Code of Conduct",
-            "Link" : "https://docs.google.com/document/d/1Wz_w6Z7usMnXKFMpOY4IPbA35twK7Uc4CAxScGDiwOk/edit"
-        },
-        {
-            "LinkName" : "Terms & Servies",
-            "Link" : "https://docs.google.com/document/d/14g3fv9NItiB8Hd-YGYyVYd2N4LRxe6Bx3syWse_wsiA/edit?usp=sharing"
+            "LinkName" : "GDG-X Aura",
+            "Link" : "https://github.com/gdg-x/aura"
         }
     ]
 }

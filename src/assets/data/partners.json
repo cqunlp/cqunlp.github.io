@@ -1,18 +1,13 @@
 [
     {
-        "name":"GDG",
-        "link":"https://developers.google.com/groups",
-        "img":"gdglogo.png"
+        "name":"西信天元",
+        "link":"http://www.cqxxty.com/",
+        "img":"cqxxty.jpg"
     },
     {
-        "name":"WomenTechmakers",
-        "link":"https://www.womentechmakers.com/",
-        "img":"wtm.png"
-    },
-    {
-        "name":"GDG[x]",
-        "link":"https://github.com/gdg-x",
-        "img":"gdg-x.svg"
+        "name":"维普",
+        "link":"http://www.cqvip.com/",
+        "img":"cqvip.png"
     }
 
 ]

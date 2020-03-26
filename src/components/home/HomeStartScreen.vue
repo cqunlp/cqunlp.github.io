@@ -18,22 +18,28 @@
                 </v-img>
             </v-flex> 
             <v-flex xs12 sm7 md8 lg8 xl8 class="">
-                <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:300%"><b>Make good things 
-                    <span style="color: #1a73e8;">together</span>.</b>
+                <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:300%"><b>面向<span style="color: #1a73e8;">专业知识内容</span> 
+                    的NLP服务</b>
                 </p>
                 <p class="google-font mt-0" style="font-size:180%">{{chapterDetails.ChapterName}}</p>
-                <p class="google-font" style="font-size:110%">{{chapterDetails.ChapterShortDescription}}</p>
-                <p class="google-font" style="font-size:110%;color:#9e9e9e">
-                    <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">
+                <p class="google-font" style="font-size:130%">{{chapterDetails.ChapterShortDescription}}</p>
+                <p class="google-font" style="font-size:130%">{{chapterDetails.SeriveDescription}}</p>
+                <p class="google-font" style="font-size:120%;color:#9e9e9e">
+                    <span>现有服务：</span>
+                    <span v-for="(item,i) in chapterDetails.ServiceHashTags" :key="i">
                         #{{item}} &nbsp;
                     </span>
                 </p>
 
-                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Become a Member</v-btn>
+                <v-btn :href="chapterDetails.ServiceLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white;font-size:120%">试用服务</v-btn>
 
                 &nbsp;
 
-                <v-btn :href="chapterDetails.GDGProgramWebsite" target="_blank" round color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outline  class="ml-0" dark>Learn More</v-btn>
+                <v-btn :href="chapterDetails.TeacherLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white;font-size:120%">加入我们</v-btn>
+
+                &nbsp;
+
+                <v-btn :href="chapterDetails.GDGProgramWebsite" target="_blank" round color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;font-size:120%" outline  class="ml-0" dark>更多信息</v-btn>
 
             </v-flex>
         </v-layout>

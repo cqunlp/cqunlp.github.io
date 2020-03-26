@@ -7,7 +7,7 @@
 
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex xs12 md9 lg9 class="pa-2 text-xs-center">
-        <p class="google-font" style="font-size:170%">Our Events & Meetups</p>
+        <p class="google-font" style="font-size:170%">近期活动 & 新闻</p>
         <p
           class="google-font"
           style="font-size:120%"

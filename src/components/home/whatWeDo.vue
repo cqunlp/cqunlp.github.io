@@ -2,10 +2,13 @@
     <v-container class="pa-0">
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 md3 lg3 class="pa-2">
-               <p class="google-font" style="font-size:180%">What we do?</p>
-               <p class="google-font" style="font-size:110%">Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
-
-               <p class="google-font" style="font-size:110%">About different Google technologies</p>
+               <p class="google-font" style="font-size:180%">我们的工作</p>
+               <!-- <p class="google-font" style="font-size:110%">Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p> -->
+               <p class="google-font" style="font-size:110%">从论文、专利等文本中提取“实体-关系”三元组，构造专业知识图谱。</p>
+               <p class="google-font" style="font-size:110%">通过知识图谱辅助自动文本摘要生成，提供有效精简的核心专业知识文本。</p>
+               <p class="google-font" style="font-size:110%">对文本的通顺性、上下文一致性等特征进行质量评估</p>
+               <p class="google-font" style="font-size:110%">设计开发标注系统、知识图谱编辑系统等工具</p>
+               <!-- <p class="google-font" style="font-size:110%">About different Google technologies</p>
 
                 <span v-for="(item,i) in whatWeDoData" :key="i">
                     <v-tooltip bottom>
@@ -18,10 +21,10 @@
                         <span>{{item.TechName}}</span>
                     </v-tooltip>
                 </span>
-                
-                <br><br>
+                 -->
+                <!-- <br><br> -->
 
-                <v-btn :href="chapterDetails.GDGProgramWebsite" outline target="_blank" round color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" flat  class="ml-0 google-font hidden-md-and-down" dark>Learn More</v-btn>
+                <v-btn :href="chapterDetails.GDGProgramWebsite" outline target="_blank" round color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" flat  class="ml-0 google-font hidden-md-and-down" dark>更多信息</v-btn>
 
             </v-flex> 
             <v-flex xs12 md9 lg9 class="">
@@ -29,26 +32,26 @@
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">chat_bubble</v-icon>
-                        <p class="google-font" style="font-size:130%">Talks</p>
-                        <p class="google-font" style="font-size:110%">Get updated with the latest news and announcements</p>
+                        <p class="google-font" style="font-size:150%">服务接口</p>
+                        <p class="google-font" style="font-size:120%">提供不同类型的自然语言处理服务接口</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">code</v-icon>
-                        <p class="google-font" style="font-size:130%">Codelabs</p>
-                        <p class="google-font" style="font-size:110%">Get hands-on experience and guidance from the community members</p>
+                        <p class="google-font" style="font-size:150%">开源模型</p>
+                        <p class="google-font" style="font-size:120%">开源SOTA模型并托管于Github</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">school</v-icon>
-                        <p class="google-font" style="font-size:130%">Campus Roadshows</p>
-                        <p class="google-font" style="font-size:110%">Share knowledge in different Companies, colleges and universities</p>
+                        <p class="google-font" style="font-size:150%">知识共享</p>
+                        <p class="google-font" style="font-size:120%">提供计算机、医疗、法学等八个领域的关联知识</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">airplay</v-icon>
-                        <p class="google-font" style="font-size:130%">Live Viewing Parties</p>
-                        <p class="google-font" style="font-size:110%">Share knowledge in different Companies, colleges and universities</p>
+                        <p class="google-font" style="font-size:150%">知识网红</p>
+                        <p class="google-font" style="font-size:120%">通过直播、公开课等方式提供前沿知识</p>
                     </v-flex>
 
                 </v-layout>

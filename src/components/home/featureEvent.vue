@@ -1,5 +1,6 @@
 <template>
     <v-container class="pa-0 my-0">
+        <p class="google-font mb-2" style="font-size:150%">未来活动</p>
         <v-layout wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px">
             <v-flex xs12 sm4 md3 lg3 class="pa-4" >
                 <v-img

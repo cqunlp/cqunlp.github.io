@@ -1,12 +1,16 @@
 {
     "ChapterName":"CQU NLP",
-    "ChapterShortDescription":"Test Test Google Developers Group Jalandhar is an initiative to concentrate the efforts of many developers in and around Punjab to learn, share and get productive using the various Google products.",
-    "ChapterLongDec":"Google Developer Group Jalandhar is inspired by GTUG/GDG Family . We started our journey in Feb 2011. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Jalandhar. The technology awareness is main goal for first few years of the group.",
-    "ChapterMeetupLink":"https://www.meetup.com/GDG-Jalandhar",
-    "ChapterEmail":"gdgjalandhar@gmail.com",
-    "website":"https://gdgjalandhar.com",
+    "ChapterShortDescription":"重庆大学自然语言与专业知识处理实验室，致力于利用自然语言处理技术将论文、专利等专业知识内容智能提取，以知识图谱为核心提供知识检索、辅助创新、知识生成等服务。",
+    "SeriveDescription":"实验室依托重庆大学计算机学院，与维普、西信天元等知识服务提供商深度合作，通过基于深度学习的信息抽取方法构造专业知识图谱，并提供不同类别的知识服务。",
+    "ChapterLongDec":"重庆大学自然语言与专业知识处理实验室成立于2017年12月，为科技部国家重点研发专项——“专业知识服务关键技术与商业模式研究”提供学术研究和核心算法支持。实验室前身为重庆大学服务计算研究组，具备良好的大数据分析与挖掘研究基础，在基础自然语言处理研究方面具备一定基础。实验室现有博士3人，硕士9人，大四推免生3人，本科参研学生4人，拥有充足的技术和人员储备。现阶段已研究开发包括命名实体识别、关系抽取、自动摘要等多种NLP算法，并设计开发标注系统、知识图谱编辑系统等工具。我们致力于通过自然语言处理技术提供智能化知识服务，辅助知识创新，为科研人员提供高效便利的创新工具。",
+    "TeacherLink":"http://www.cs.cqu.edu.cn/info/1319/4139.htm",
+    "CQUCSLink":"http://www.cs.cqu.edu.cn",
+    "CQULink":"http://www.cqu.edu.cn",
+    "ChapterEmail":"zhongjiang@cqu.edu.cn",
+    "website":"https://nlp.cqu.ai",
     "GDGProgramWebsite":"https://developers.google.com/programs/community/",
-    "ChapterHashTags":["GDGJalandhar","WTMJalandhar","GDG","WTM"],
+    "ServiceHashTags":["命名实体识别","关系抽取","自动摘要","文本质量评估","知识图谱编辑"],
+    "ServiceLink":"https://nlp.cqu.ai/service",
     "socialLinks":[
         {
             "name" : "Facebook",

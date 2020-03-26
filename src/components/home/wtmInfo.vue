@@ -25,7 +25,6 @@
                <v-btn :href="ChapterDetails.wtmWebsite" target="_blank" outline color="#4C4A78" class="ma-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More About WTM Program</v-btn>             
             </v-flex> 
         </v-layout>
-
     </v-container>
 </template>
 
